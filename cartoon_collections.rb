@@ -6,8 +6,8 @@ def summon_captain_planet(element_array)
   result = element_array.map{|item| item.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(exclamation_array)
+  exclamation_array.any?{|item|
 end
 
 def find_the_cheese# code an argument here
